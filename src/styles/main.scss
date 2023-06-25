@@ -1,0 +1,67 @@
+$p: 'Pirata One';
+$o: 'Oswald';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E353C;
+    color: #fff;
+
+    .hero {
+        background-image: url(/src/images/hero-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: contain;
+
+
+        .container {
+            width: 1400px;
+            height: 983px;
+            margin: 0 auto;
+
+            .hero-content {
+               padding: 40px 0 96px;
+                display: flex;
+                justify-content: center;
+
+                .left {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+
+                    .top {
+                        h2 {
+                            letter-spacing: 0.882px;
+                            font-size: 44.112px;
+                            font-family: $p;
+                            border: 4px solid #fff;
+                            border-left: none;
+                            border-right: none;
+                            border-width: 6px;
+                            height: 72px;
+                            
+                        }
+
+                        p {
+                            font-family: $o;
+                            letter-spacing: 0.257px;
+                            font-size: 13px;
+                            font-weight: 500;   
+
+                        }
+                    }
+
+                    .center {
+                        margin: 228px 0 145px;
+
+                    }
+                }
+            }
+        }
+    }
+}
